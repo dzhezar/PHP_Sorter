@@ -22,6 +22,9 @@ class Context
             case "Descending":
                 $this->strategy = new DescendingSort();
                 break;
+            default:
+                $this->strategy = new NullSort();
+                break;
         }
     }
 

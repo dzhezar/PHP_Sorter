@@ -14,6 +14,7 @@ use App\NumbersArray;
 
 
 
+
 require_once "src/console helper.php";
 
 writeln('BEGIN TESTING STRATEGY PATTERN');
@@ -21,7 +22,7 @@ writeln('');
 
 $array = new NumbersArray([3,2,1,5,6,4]);
 
-$strategyContext1 = new Context('Ascending');
+$strategyContext1 = new Context('Atgyftytf');
 $strategyContext2 = new Context("Descending");
 
 writeln('test 1 - Ascending sorting');
